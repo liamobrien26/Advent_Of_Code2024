@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Part1 {
     public static void main(String[] args) throws FileNotFoundException {
 
-        Scanner scanFile = new Scanner(new File("src/main/resources/inputDay1.txt"));
+        Scanner scanFile = new Scanner(new File("src/main/resources/puzzleInputDay1.txt"));
 
         List<Integer> leftList = new ArrayList<>();
         List<Integer> rightList = new ArrayList<>();
