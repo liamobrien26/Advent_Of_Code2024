@@ -7,6 +7,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Part1 {
+
+    private Part1() {
+    }
+
     public static void main(String[] args) throws FileNotFoundException {
 
         Scanner scanFile = new Scanner(new File("src/main/resources/puzzleInputDay3.txt"));
